@@ -33,8 +33,8 @@ const Hero = () => {
                 Product Manager & Digital Transformation Specialist
               </p>
               <p className="text-lg text-blue-200 leading-relaxed max-w-2xl">
-                Experienced Product Owner in Corporate Banking, delivering Channels, like Host To Host, 
-                SWIFT FIN, UPI, Swift File Act, Charges & Customer On-Boarding via agile execution, 
+                Product Owner in Corporate Banking, delivering Channels like Host To Host, 
+                Charges & Customer On-Boarding via agile execution, 
                 stakeholder management & omni-channel strategy.
               </p>
             </div>
@@ -95,7 +95,12 @@ const Hero = () => {
 
             {/* Action Buttons */}
             <div className="flex flex-wrap gap-4">
-              <Button variant="secondary" size="lg" className="bg-white text-primary hover:bg-white/90">
+              <Button 
+                variant="secondary" 
+                size="lg" 
+                className="bg-white text-primary hover:bg-white/90"
+                onClick={() => window.open('/Mahanthy_Resume.pdf', '_blank')}
+              >
                 <Download className="mr-2 h-5 w-5" />
                 Download Resume
               </Button>

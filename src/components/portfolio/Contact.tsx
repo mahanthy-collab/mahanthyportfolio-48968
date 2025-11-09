@@ -199,29 +199,6 @@ const Contact = () => {
               </CardContent>
             </Card>
 
-            <Card className="card-shadow border-0">
-              <CardHeader>
-                <CardTitle className="text-xl">Portfolio Link</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <div className="bg-primary/5 rounded-lg p-4 text-center">
-                  <p className="text-sm text-muted-foreground mb-3">
-                    For detailed project information and case studies:
-                  </p>
-                  <Button variant="outline" size="sm" asChild>
-                    <a 
-                      href="https://bit.ly/MahanthyDhanavathPortfolio" 
-                      target="_blank" 
-                      rel="noopener noreferrer"
-                      className="text-primary"
-                    >
-                      <ExternalLink className="mr-2 h-4 w-4" />
-                      bit.ly/MahanthyDhanavathPortfolio
-                    </a>
-                  </Button>
-                </div>
-              </CardContent>
-            </Card>
           </div>
         </div>
 

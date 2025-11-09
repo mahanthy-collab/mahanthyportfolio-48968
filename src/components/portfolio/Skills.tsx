@@ -30,20 +30,6 @@ const Skills = () => {
       ]
     },
     {
-      title: "Technical Skills",
-      icon: Code2,
-      color: "text-green-600",
-      bgColor: "bg-green-50",
-      skills: [
-        { name: "API Development", level: 85 },
-        { name: "SWIFT FIN", level: 80 },
-        { name: "UPI Integration", level: 85 },
-        { name: "Banking Systems", level: 90 },
-        { name: "System Integration", level: 80 },
-        { name: "Security Protocols", level: 75 }
-      ]
-    },
-    {
       title: "Data & Analytics",
       icon: BarChart3,
       color: "text-purple-600",
