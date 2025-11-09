@@ -30,11 +30,11 @@ const Certifications = () => {
     },
     {
       title: "Digital Transformation Specialist",
-      organization: "Digital Innovation Institute"
+      organization: "IIM Trichy"
     },
     {
       title: "Data Analytics for Managers",
-      organization: "Analytics Academy"
+      organization: "IIM Trichy"
     }
   ];
 

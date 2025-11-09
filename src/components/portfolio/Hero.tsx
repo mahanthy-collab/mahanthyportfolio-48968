@@ -30,7 +30,7 @@ const Hero = () => {
                 Mahanthy <span className="text-accent">Dhanavath</span>
               </h1>
               <p className="text-xl lg:text-2xl text-blue-100 font-medium">
-                Product Manager & Digital Transformation Specialist
+                Business Analyst 
               </p>
               <p className="text-lg text-blue-200 leading-relaxed max-w-2xl">
                 Product Owner in Corporate Banking, delivering Channels like Host To Host, 

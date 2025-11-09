@@ -29,7 +29,7 @@ const Contact = () => {
     {
       icon: MapPin,
       label: "Location",
-      value: "Trichy, Tamil Nadu, India",
+      value: "Chennai, Tamil Nadu, India",
       action: null
     },
     {
@@ -45,16 +45,10 @@ const Contact = () => {
       title: "Download Resume",
       description: "Get my latest resume in PDF format",
       icon: Download,
-      action: "#",
+      action: "../assets/MahanthyD_Resume.pdf",
       variant: "default" as const
     },
-    {
-      title: "View Portfolio",
-      description: "Explore my detailed project portfolio",
-      icon: ExternalLink,
-      action: "https://bit.ly/MahanthyDhanavathPortfolio",
-      variant: "outline" as const
-    },
+    
     {
       title: "Schedule a Call",
       description: "Book a time to discuss opportunities",
@@ -128,14 +122,14 @@ const Contact = () => {
                 <CardTitle className="text-xl">Quick Actions</CardTitle>
               </CardHeader>
               <CardContent>
-                <div className="grid sm:grid-cols-3 gap-4">
+                <div className="grid sm:grid-cols-2 gap-4">
                   {quickActions.map((action, index) => (
                     <Button
                       key={index}
                       variant={action.variant}
                       size="lg"
                       className="h-auto p-6 flex-col gap-3 text-center"
-                      asChild={action.action.startsWith('http')}
+                      onClick={() => window.open('/Mahanthy_Resume.pdf', '_blank')}
                     >
                       {action.action.startsWith('http') ? (
                         <a href={action.action} target="_blank" rel="noopener noreferrer">

@@ -116,7 +116,6 @@ const About = () => {
                   <li>• Digital Transformation Initiatives</li>
                   <li>• Agile Development & SDLC</li>
                   <li>• Stakeholder Management</li>
-                  <li>• Channel Integration & Onboarding</li>
                 </ul>
               </div>
 
@@ -125,9 +124,6 @@ const About = () => {
                 <ul className="text-sm text-muted-foreground space-y-1">
                   <li>• Financial Services & Banking</li>
                   <li>• FinTech & Payment Solutions</li>
-                  <li>• API Banking & Integration</li>
-                  <li>• SWIFT FIN & UPI Systems</li>
-                  <li>• Customer Experience Design</li>
                 </ul>
               </div>
 
